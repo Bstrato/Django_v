@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    {% load static %}
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
+    <title>EPIMAL003 ML DEMO</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css\bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css\font-awesome.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css\fullcalendar.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css\dataTables.bootstrap4.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css\select2.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css\style.css' %}">
+    <!--[if lt IE 9]>
+		<script src="{% static 'js/html5shiv.min.js' %}"></script>
+		<script src="{% static 'js/respond.min.js' %}"></script>
+	<![endif]-->
+</head>
+
+<body>
+    <div class="main-wrapper account-wrapper" >
+
+		
+		<!-- Content -->
+        <div class="page-wrapper" >
+            <div class="content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card-box">
+                            <h4 class="card-title" align="center">Complete Vaccination History Form</h4>
+                            <form action="#">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>BCG Received ?</label>
+                                            <select class="select form-control">
+                                                <option>Select</option>
+                                                <option value="1">Yes</option>
+                                                <option value="0">No</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Pent1 Received ?</label>
+                                            <select class="select form-control">
+                                                <option>Select</option>
+                                                <option value="1">Yes</option>
+                                                <option value="0">No</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Penta2 Received ?</label>
+                                            <select class="select form-control">
+                                                <option>Select</option>
+                                                <option value="1">Yes</option>
+                                                <option value="0">No</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    </div>
+
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Penta3 Received ?</label>
+                                            <select class="select form-control">
+                                                <option>Select</option>
+                                                <option value="1">Yes</option>
+                                                <option value="0">No</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    </div>
+
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Rota1 Received ?</label>
+                                            <select class="select form-control">
+                                                <option>Select</option>
+                                                <option value="1">Yes</option>
+                                                <option value="0">No</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Rota2 Received ?</label>
+                                            <select class="select form-control">
+                                                <option>Select</option>
+                                                <option value="1">Yes</option>
+                                                <option value="0">No</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    </div>
+
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Polio_0 Received ?</label>
+                                            <select class="select form-control">
+                                                <option>Select</option>
+                                                <option value="1">Yes</option>
+                                                <option value="0">No</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Polio_2 Received ?</label>
+                                            <select class="select form-control">
+                                                <option>Select</option>
+                                                <option value="1">Yes</option>
+                                                <option value="0">No</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Pnuemo_1 Received ?</label>
+                                            <select class="select form-control">
+                                                <option>Select</option>
+                                                <option value="1">Yes</option>
+                                                <option value="0">No</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Pnuemo_2 Received ?</label>
+                                            <select class="select form-control">
+                                                <option>Select</option>
+                                                <option value="1">Yes</option>
+                                                <option value="0">No</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>RTSS_1 Received ?</label>
+                                            <select class="select form-control">
+                                                <option>Select</option>
+                                                <option value="1">Yes</option>
+                                                <option value="0">No</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    </div>
+
+                                <div class="form-group">
+                                    <label align = 'center'>Is subject likely to receive RTSS_2 ?</label>
+                                    <input type="text" class="form-control" value="readonly" readonly="readonly">
+                                </div>
+
+                                <div class="text-right">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+		<!-- Content End -->
+    </div>
+    <div class="sidebar-overlay" data-reff=""></div>
+    <script src="{% static 'js\jquery-3.2.1.min.js' %}"></script>
+	<script src="{% static 'js\popper.min.js' %}"></script>
+    <script src="{% static 'js\bootstrap.min.js' %}"></script>
+    <script src="{% static 'js\jquery.slimscroll.js' %}"></script>
+    <script src="{% static 'js\select2.min.js' %}"></script>
+    <script src="{% static 'js\app.js' %}"></script>
+</body>
+
+</html>
